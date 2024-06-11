@@ -1,0 +1,101 @@
+.image{
+    background-image: url(../../img/technology-4905258_1920.jpg);
+    display: block;
+    background-size: cover;
+    background-position: center;
+    z-index: 0;
+    opacity: 0.6;
+    position: absolute;
+}
+
+
+.nav-item a{
+    font-size: 1.5rem;
+    color: rgb(23, 165, 82);
+}
+
+
+.menu-transparent{
+    background-color: rgba(255, 255, 255, 0.6);
+}
+
+.contenu-transparent{
+  background-color: rgba(255, 255, 255, 0.4);
+}
+
+.equipement-trans{
+  background-color: rgba(99, 236, 156, 0.4);
+}
+
+.gradient-background {
+  background: linear-gradient(to right, #ffffff, #3dbed4); /* Exemple de dégradé du rouge au jaune */
+  padding: 20px;
+  color: white;
+}
+.gradient-background-inv {
+  background: linear-gradient(to right, #56b5ec , #e2dce2); /* Exemple de dégradé du rouge au jaune */
+  padding: 20px;
+  color: white;
+}
+.contenue{
+    z-index: 2;
+    position: relative;
+    top: 0;
+    left: 0;
+}
+
+
+.logo {
+    font-family: Arial, sans-serif;
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #333;
+  }
+
+  .first-letter {
+    font-size: 3rem;
+  }
+
+  .thin-text {
+    font-weight: normal;
+    font-style: italic;
+  }
+
+.title1 {
+    font-size: 36px;
+    font-weight: bold;
+  }
+
+  .title2 {
+    font-size: 72px;
+    font-style: italic;
+    font-family: 'Times New Roman', Times, serif;
+  }
+
+  .title3 {
+    font-size: 24px;
+  }
+
+  .btn {
+    margin-top: 20px;
+  }
+
+  .inside{
+    padding-left: 15lvh;
+  }
+
+  /* Réinitialiser tous les styles des liens */
+a {
+  color: inherit; /* Hérite de la couleur du texte environnant */
+  text-decoration: none; /* Supprime la décoration par défaut (soulignement) */
+}
+
+a:hover, a:focus {
+  color: inherit; /* Hérite de la couleur du texte environnant au survol et au focus */
+  text-decoration: none; /* Supprime la décoration par défaut (soulignement) */
+}
+
+a:active {
+  color: inherit; /* Hérite de la couleur du texte environnant lors du clic */
+  text-decoration: none; /* Supprime la décoration par défaut (soulignement) */
+}
